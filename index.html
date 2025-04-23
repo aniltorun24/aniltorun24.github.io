@@ -1,10 +1,21 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>aniltorun24.github.io</title>
-    </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>We are trying to find lyrics of musics</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <div class="container">
+    <h1>Find your lyrics !</h1>
+    <form id="lyrics-form">
+      <input type="text" id="artist" placeholder="Artist Name" required />
+      <input type="text" id="title" placeholder="Song name" required />
+      <button type="submit">Get Lyrics</button>
+    </form>
+    <pre id="lyrics"></pre>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
